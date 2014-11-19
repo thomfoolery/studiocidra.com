@@ -1,0 +1,58 @@
+body.home {
+  .page-content {
+
+    [class^=col] {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 600;
+
+      strong {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &:first-child {
+        figure:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 0;
+          height: 0;
+          border: 50px solid transparent;
+          border-color: transparent transparent white white;
+        }
+      }
+
+      &:last-child {
+        figure:after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 0;
+          height: 0;
+          border: 50px solid transparent;
+          border-color: white white transparent transparent;
+        }
+      }
+    }
+
+    figure {
+      position: relative;
+      padding-top: 100%;
+      margin-bottom: 30px;
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

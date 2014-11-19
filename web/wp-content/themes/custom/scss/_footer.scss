@@ -1,0 +1,20 @@
+.site-footer {
+  height: 40px;
+  padding: 10px 15px;
+  margin-top: -40px;
+  text-align: right;
+
+  .social-tools {
+    height: 20px;
+    line-height: 20px;
+
+    a {
+      color: black;
+
+      &:hover,
+      &:focus {
+        color: black;
+      }
+    }
+  }
+}

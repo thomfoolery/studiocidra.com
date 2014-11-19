@@ -1,0 +1,41 @@
+.page-content {
+  a,
+  p,q,
+  ul,ol,
+  blockqoute,
+  h1,h2,h3,h4,h5,h6 {
+    color: black;
+  }
+
+  a {
+    padding-bottom: .05em;
+    border-bottom: 1px solid black;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  p,q,
+  ul,ol,
+  blockqoute {
+    line-height: 1.4em;
+    margin-bottom: 1em;
+  }
+
+  article {
+    max-width: 35em;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    line-height: 1
+  }
+
+  @media (min-width: $screen-md-min) {
+    margin-left: 210px;
+    padding-top: 140px;
+  }
+}

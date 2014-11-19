@@ -1,0 +1,23 @@
+/*!
+	Theme Name: custom
+	Author: Thom Yuill
+	Version: 1.0
+	Author URI: www.thom-foolery.com
+	Theme URI: /
+	Tags:
+	Description: This is a description for the custom theme.
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+$icon-font-path: "../grunt/bower_components/twbs-bootstrap-sass/assets/fonts/bootstrap/";
+
+@import "wp";
+@import "socicon";
+@import "variables";
+@import "bootstrap";
+@import "globals";
+@import "header";
+@import "page-content";
+@import "front-page";
+@import "footer";
